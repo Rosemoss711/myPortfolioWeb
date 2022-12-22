@@ -1,0 +1,84 @@
+.projectWrap {
+    display: flex;
+    position: relative;
+    width: calc(100% * 11 / 22);
+    height: 800px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#imgsWrap {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  height: max-content;
+}
+
+.pjBox {
+    display: flex;
+    position: relative;
+}
+
+.pageTitle {
+    position: absolute;
+    width: 200px;
+    left: 28vw;
+    color: #cfcccc;
+    font-family: var(--font-nanumSqNeo);
+}
+
+.pjInBox {
+    display: flex;
+    padding-top: 50px;
+}
+
+.pjImgs {
+    width: 49vw;
+    padding-right: 1vw;
+    object-fit: fill;
+}
+
+.pjExTitle {
+    text-align: center;
+}
+
+.pjEx {
+    width: 15.5vw;
+    padding-right: 1vw;
+    color: #cfcccc;
+    font-family: var(--font-nanumSqNeoRg);
+    line-height: 1.3;
+}
+
+.pjEx > p:first-child {
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+    color: pink;
+}
+
+.slideBtn {
+    margin-top: 15px !important;
+    position: absolute !important;
+    z-index: 99;
+    background-color: rgba(255, 192, 203, 0);
+    border: none;
+    border-radius: 40%;
+}
+
+.pjInfo {
+    color:#cfcccc;
+    font-family: var(--font-nanumSqNeo);
+    margin-left: 1.5vw;
+    line-height: 1.3;
+}
+
+.pjInfoTitle {
+    text-align: center;
+    color: pink;
+    font-size: 6vw;
+}
+
+#pjInfoTitle2 {
+    font-size: 2vw;
+}

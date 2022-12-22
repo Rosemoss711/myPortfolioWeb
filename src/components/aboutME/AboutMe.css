@@ -1,0 +1,59 @@
+#story, #aboutMeTitle, .amTitle, .amContent {
+    font-family: var(--font-nanumSqNeo);
+}
+
+.css-1qvr50w-MuiTypography-root {
+    font-family: var(--font-nanumSqNeo) !important;
+}
+
+#story {
+    color: #cfcccc;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#aboutMeTitle {
+    color: pink;
+    font-size: 8vw;
+    text-align: center;
+    margin: 50px 0;
+  }
+
+.amTitle, .amContent{
+    color:rgb(250, 215, 238);
+    text-align: center;
+}
+
+.amTitle {
+    font-size: 2rem;
+    margin-top: 80px;
+}
+
+.amCardTitle {
+    background-color: #aba9a9;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+.amContent {
+    font-size: 1.2rem;
+}
+
+.logos {
+    width: 87px;
+    height: 87px;
+    align-items: center;
+}
+
+.logoGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notion {
+    font-family: 'Inter', sans-serif;
+    vertical-align: 15px;
+    font-size: 27px;
+    margin-left: 3px;
+}

@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@font-face {
+  font-family: "monoton";
+  src: url(./assets/fonts/monoton/Monoton-Regular.ttf);
+}
+
+@font-face {
+  font-family: "nanumSqNeo";
+  src: url(./assets/fonts/nanumSqNeo/NanumSquareNeo-dEb.ttf);
+}
+
+@font-face {
+  font-family: "nanumSqNeoRg";
+  src: url(./assets/fonts/nanumSqNeo/NanumSquareNeo-bRg.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+:root{
+  --font-monoton: "monoton";
+  --font-nanumSqNeo: "nanumSqNeo";
 }

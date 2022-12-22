@@ -1,0 +1,23 @@
+.css-imwso6-MuiBottomNavigationAction-label{
+    font-family: var(--font-nanumSqNeo) !important;
+    font-size: 1.5rem !important;
+    justify-content: flex-end;
+}
+
+.menuText.Mui-selected{
+    color:pink !important;
+    font-weight: bold;
+}
+
+.loginBtn.css-11qr2p8-MuiButtonBase-root-MuiButton-root{
+    min-width: 0px;
+    background-color: #aba9a9;
+    position: absolute;
+    right: 0;
+    margin: 10px 5px 5px 5px;
+}
+
+.loginBtn.css-11qr2p8-MuiButtonBase-root-MuiButton-root:hover{
+    background-color: black;
+    color:pink;
+}

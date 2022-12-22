@@ -1,0 +1,53 @@
+.projectsWrap {
+  position: relative;
+}
+
+.pjTitle {
+  font-family: var(--font-nanumSqNeo);
+  color: pink;
+  font-size: 8vw;
+  text-align: center;
+}
+
+#emptyBox {
+  width: 10px;
+  height: 10vw;
+  background-color: pink;
+  margin: auto;
+}
+
+.pjUl {
+  padding-top: 6vw;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+}
+
+.pjList {
+  margin: 10px;
+}
+
+a.pjLink {
+  color: #cfcccc;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2vw;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: black;
+  -webkit-border-radius: 1ex;
+}
+  
+::-webkit-scrollbar-thumb {
+  background: deeppink;
+  -webkit-border-radius: 1ex;
+}
+  
+::-webkit-scrollbar-corner {
+  background: #fff3;
+}
+  
