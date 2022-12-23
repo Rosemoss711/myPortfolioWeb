@@ -1,5 +1,44 @@
-#myEmail {
-    font-family: var(--font-nanumSqNeo);
+#contactTitle {
     color: pink;
+    font-size: 8vw;
     text-align: center;
+    margin: 50px 0;
+    font-family: var(--font-nanumSqNeo);
+}
+
+#emailWrap {
+    margin-top: 50px;
+}
+
+#inputTitle, #inputEmail, #inputMessage {
+    color: #e9e7e7;
+    width: 50vw;
+    font-family: var(--font-nanumSqNeoRg);
+}
+
+.MuiInput-root:before {
+    border-color: #aba9a9 !important;
+}
+
+.MuiInput-root:hover:not(.Mui-disabled)::before {
+    border-color: deeppink !important;
+}
+
+.emailInput {
+    align-self: center;
+}
+
+.emailInput label {
+    color: #aba9a9;
+}
+
+#emailBtn {
+    font-family: var(--font-nanumSqNeo);
+    width: 90px;
+    height: 35px;
+    align-self: center;
+    background-color: pink;
+    border: 1px solid #aba9a9;
+    border-radius: 100px;
+    margin-top: 50px;
 }
