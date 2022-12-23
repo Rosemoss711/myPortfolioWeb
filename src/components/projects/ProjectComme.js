@@ -323,7 +323,7 @@ const ProjectComme = () => {
         <Grid2
           xs={1}
           style={{ width: "3vw" }}
-          sx={{ borderLeft: "1px solid pink", height: "300px" }}
+          sx={{ borderLeft: "0px solid pink", height: "300px" }}
         />
         <Grid2 item xs={3} className="pjInfo">
           <p className="pjInfoTitle">

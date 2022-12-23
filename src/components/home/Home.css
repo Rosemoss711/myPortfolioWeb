@@ -10,9 +10,9 @@
     font-family: var(--font-monoton);
     animation: neon1 1.5s ease-in-out infinite alternate;
     text-align: center;
-    font-size: 7em;
-    margin-bottom: 0;
-    margin-top: 12rem;
+    font-size: 9vw;
+    margin-bottom: 50px;
+    margin-top: 10rem;
     line-height: 1;
     text-decoration: none;
     color: #fff;
@@ -22,7 +22,7 @@
     color: rgb(226, 219, 223);
     text-align: center;
     font-family: var(--font-nanumSqNeo);
-    font-size: 2rem;
+    font-size: 20px;
   }
   
   /*glow*/

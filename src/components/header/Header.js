@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <>
       <Button
-        className="loginBtn"
+        id="loginBtn"
         size="small"
         variant="contained"
         // onClick={() => {

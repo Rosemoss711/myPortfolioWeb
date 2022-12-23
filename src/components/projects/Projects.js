@@ -28,7 +28,7 @@ const Projects = () => {
       variants={{ visible: { transition: { staggerChildren: 0.3 } } }}
     >
       <Grid2 container columns={{ xs: 13 }}>
-        <Grid2 item xs={6}>
+        <Grid2 xs={6} xsOffset="auto">
           <motion.h1
             className="pjTitle"
             variants={{
@@ -46,11 +46,11 @@ const Projects = () => {
             visible,
           }}
         >
-          <Grid2 item xs={1}>
-            <div id="emptyBox"></div>
+          <Grid2 xs={1} xsOffset="auto">
+            <div id="emptyBox" />
           </Grid2>
         </motion.h1>
-        <Grid2 item xs={6}>
+        <Grid2 id="ulWrap" xs={6} xsOffset="auto">
           <ul className="pjUl">
             <motion.li className="pjList" variants={itemVariants}>
               <Link className="pjLink" to="/projects/dangpert">

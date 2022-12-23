@@ -1,6 +1,6 @@
-.css-imwso6-MuiBottomNavigationAction-label{
-    font-family: var(--font-nanumSqNeo) !important;
-    font-size: 1.5rem !important;
+.menuText span{
+    font-family: var(--font-nanumSqNeo);
+    font-size: 1.5rem;
     justify-content: flex-end;
 }
 
@@ -9,7 +9,7 @@
     font-weight: bold;
 }
 
-.loginBtn.css-11qr2p8-MuiButtonBase-root-MuiButton-root{
+#loginBtn{
     min-width: 0px;
     background-color: #aba9a9;
     position: absolute;
@@ -17,7 +17,7 @@
     margin: 10px 5px 5px 5px;
 }
 
-.loginBtn.css-11qr2p8-MuiButtonBase-root-MuiButton-root:hover{
+#loginBtn:hover{
     background-color: black;
     color:pink;
 }
