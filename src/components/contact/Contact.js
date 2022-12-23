@@ -87,6 +87,9 @@ const Contact = () => {
       >
         CONTACT
       </motion.h1>
+      <p id="myEmail">
+        - {"\u00A0\u00A0"}rosemoss711@gmail.com{"\u00A0\u00A0"} -
+      </p>
       <form ref={form} onSubmit={sendEmail}>
         <Stack id="emailWrap" spacing={2}>
           <ThemeProvider theme={theme}>

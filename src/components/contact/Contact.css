@@ -6,6 +6,13 @@
     font-family: var(--font-nanumSqNeo);
 }
 
+#myEmail {
+    font-family: var(--font-nanumSqNeo);
+    color: pink;
+    font-size: medium;
+    text-align: center;
+}
+
 #emailWrap {
     margin-top: 50px;
 }
