@@ -9,3 +9,4 @@
 - npm install framer-motion
 - npm install --save react-swipeable-views --save --legacy-peer-deps
 - npm i react-swipeable-views-utils
+- yarn add @emailjs/browser --save
