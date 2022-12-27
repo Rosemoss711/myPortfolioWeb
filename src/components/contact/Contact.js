@@ -45,7 +45,7 @@ const Contact = () => {
       alert("제목을 입력해주세요.");
       return;
     } else if (input.from_email === "") {
-      alert("이메일을 입력해주세요.");
+      alert("연락처를 입력해주세요.");
       return;
     } else if (input.message === "") {
       alert("이메일 내용을 입력해주세요.");
@@ -63,7 +63,6 @@ const Contact = () => {
             alert("전송되었습니다.");
             resetValue();
             window.location.replace("/");
-            console.log(result.text);
           },
           (error) => {
             alert("전송이 실패되었습니다.");
@@ -74,7 +73,7 @@ const Contact = () => {
   };
 
   return (
-    <Container>
+    <Container id="contactWrap">
       <motion.h1
         id="contactTitle"
         initial={{ opacity: 0, scale: 1 }}
@@ -105,7 +104,7 @@ const Contact = () => {
             <TextField
               id="inputEmail"
               className="emailInput"
-              label="Email"
+              label="연락처"
               variant="standard"
               name="from_email"
               color="pink"
@@ -115,7 +114,7 @@ const Contact = () => {
             <TextField
               id="inputMessage"
               className="emailInput"
-              label="Message"
+              label="내용"
               variant="standard"
               name="message"
               color="pink"
@@ -123,7 +122,12 @@ const Contact = () => {
               multiline
               onChange={changeValue}
             />
-            <motion.button id="emailBtn" type="submit">
+            <motion.button
+              id="emailBtn"
+              type="submit"
+              whileTap={{ scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+            >
               메일 보내기
             </motion.button>
           </ThemeProvider>

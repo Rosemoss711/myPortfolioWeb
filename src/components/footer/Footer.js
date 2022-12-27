@@ -1,19 +1,17 @@
-import { Link, Typography } from "@mui/material";
+import { Container, Typography } from "@mui/material";
+import { Link } from "react-router-dom";
 import React from "react";
 import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div>
+    <Container id="footerWrap">
       <Typography id="footerTypography" color="#bdbdbd" align="center">
         {"Copyright © "}
-        <Link color="inherit" href="">
-          Rosemoss
-        </Link>{" "}
-        {new Date().getFullYear()}
+        <Link to="/">Rosemoss</Link> {new Date().getFullYear()}
         {"."}
       </Typography>
-    </div>
+    </Container>
   );
 };
 

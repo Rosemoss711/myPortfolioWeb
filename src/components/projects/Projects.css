@@ -1,5 +1,7 @@
 .projectsWrap {
   position: relative;
+  height: 71vh;
+  padding-top: 5vw;
 }
 
 .pjTitle {

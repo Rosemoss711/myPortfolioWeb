@@ -4,14 +4,13 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div>
+    <div id="homeWrap">
       <motion.div
-        className="welcomPage"
         intial={{ opacity: 0 }}
         animate={{ scale: [1, 1.1] }}
         exit={{ opacity: 0 }}
       >
-        <div id="container">
+        <div id="welcomeWrap">
           <p id="welcome">WELCOME</p>
         </div>
       </motion.div>

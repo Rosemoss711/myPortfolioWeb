@@ -224,45 +224,45 @@ const AboutMe = () => {
         <hr />
         <Grid2 container spacing={3} sx={{ justifyContent: "center" }}>
           <Grid2 xs={4}>
-            <Card sx={{ minWidth: 275 }}>
-              <CardContent>
-                <img
-                  src={require("../../assets/images/github-mark.png")}
-                  alt="GitHub"
-                  width={"50px"}
-                />
-                <a
-                  href="https://github.com/Rosemoss711"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+            <a
+              href="https://github.com/Rosemoss711"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Card sx={{ minWidth: 275 }}>
+                <CardContent>
+                  <img
+                    src={require("../../assets/images/github-mark.png")}
+                    alt="GitHub"
+                    width={"50px"}
+                  />
+
                   <img
                     src={require("../../assets/images/GitHub_Logo.png")}
                     alt="GitHub"
                     width={"100px"}
                   />
-                </a>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
+            </a>
           </Grid2>
           <Grid2 xs={4}>
-            <Card sx={{ minWidth: 200 }}>
-              <CardContent className="archivingWrap">
-                <img
-                  src={require("../../assets/images/notion-logo.png")}
-                  alt="Notion"
-                  width={"50px"}
-                />
-                <a
-                  className="notion"
-                  href="https://rosemoss711.notion.site/Dashboard-1165c770728245799924074e12e8b3c5"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Notion
-                </a>
-              </CardContent>
-            </Card>
+            <a
+              href="https://rosemoss711.notion.site/Dashboard-1165c770728245799924074e12e8b3c5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Card sx={{ minWidth: 200 }}>
+                <CardContent className="archivingWrap">
+                  <img
+                    src={require("../../assets/images/notion-logo.png")}
+                    alt="Notion"
+                    width={"50px"}
+                  />
+                  <label className="notion">Notion</label>
+                </CardContent>
+              </Card>
+            </a>
           </Grid2>
         </Grid2>
       </Container>

@@ -39,6 +39,10 @@
     font-size: 1.2rem;
 }
 
+.archivingWrap {
+    display: flex;
+}
+
 .logos {
     width: 87px;
     height: 87px;
@@ -52,8 +56,11 @@
 }
 
 .notion {
+    display: flex;
     font-family: 'Inter', sans-serif;
-    vertical-align: 15px;
+    align-items: center;
     font-size: 27px;
+    margin-top: 6px;
     margin-left: 3px;
+    cursor: pointer;
 }

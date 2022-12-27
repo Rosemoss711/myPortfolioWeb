@@ -1,8 +1,6 @@
-  #container {
+  #homeWrap {
     padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
+    height: 74vh;
   }
   
   /*Neon*/
@@ -11,7 +9,7 @@
     animation: neon1 1.5s ease-in-out infinite alternate;
     text-align: center;
     font-size: 9vw;
-    margin-bottom: 50px;
+    margin-bottom: 5vw;
     margin-top: 10rem;
     line-height: 1;
     text-decoration: none;
@@ -22,11 +20,10 @@
     color: rgb(226, 219, 223);
     text-align: center;
     font-family: var(--font-nanumSqNeo);
-    font-size: 20px;
+    font-size: 2vw;
   }
   
   /*glow*/
-  
   @keyframes neon1 {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,

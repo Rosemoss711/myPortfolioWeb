@@ -1,3 +1,7 @@
+#contactWrap {
+    margin-bottom: 15px;
+}
+
 #contactTitle {
     color: pink;
     font-size: 8vw;
@@ -19,8 +23,6 @@
 
 #inputTitle, #inputEmail, #inputMessage {
     color: #e9e7e7;
-    width: 50vw;
-    font-family: var(--font-nanumSqNeoRg);
 }
 
 .MuiInput-root:before {
@@ -33,10 +35,12 @@
 
 .emailInput {
     align-self: center;
+    width: 50vw;
 }
 
 .emailInput label {
     color: #aba9a9;
+    font-family: var(--font-nanumSqNeoRg);
 }
 
 #emailBtn {
