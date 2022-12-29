@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <>
-      <Button
+      {/* <Button
         id="loginBtn"
         size="small"
         variant="contained"
@@ -20,7 +20,7 @@ const Header = () => {
         // }}
       >
         L
-      </Button>
+      </Button> */}
       <BottomNavigation
         sx={{ bgcolor: "#aba9a9", justifyContent: "space-around" }}
         showLabels

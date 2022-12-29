@@ -119,11 +119,13 @@ const ProjectComme = () => {
           >
             <div className="pjBox" ref={slideRef}>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/comme/메인.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/comme/메인.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>메인페이지</p>
                   <hr />
@@ -135,11 +137,13 @@ const ProjectComme = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/comme/유기동물-리스트.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/comme/유기동물-리스트.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>유기동물 조회 페이지</p>
                   <hr />
@@ -158,11 +162,13 @@ const ProjectComme = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/comme/유기동물-상세.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/comme/유기동물-상세.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>유기동물 상세 페이지</p>
                   <hr />
@@ -173,11 +179,13 @@ const ProjectComme = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/comme/유기동물-페이지없음.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/comme/유기동물-페이지없음.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>검색결과 페이지</p>
                   <hr />
@@ -185,11 +193,13 @@ const ProjectComme = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/comme/자유게시판-리스트.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/comme/자유게시판-리스트.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>커뮤니티 게시판 페이지</p>
                   <hr />
@@ -202,11 +212,13 @@ const ProjectComme = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/comme/실종동물-리스트.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/comme/실종동물-리스트.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>실종동물 페이지</p>
                   <hr />
@@ -220,11 +232,13 @@ const ProjectComme = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/comme/실종동물-상세.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/comme/실종동물-상세.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>실종동물 수정 페이지</p>
                   <hr />
@@ -238,11 +252,13 @@ const ProjectComme = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/comme/매니저-전체회원.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/comme/매니저-전체회원.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>관리자 - 전체회원 목록</p>
                   <hr />
@@ -257,11 +273,13 @@ const ProjectComme = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/comme/매니저-블랙리스트.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/comme/매니저-블랙리스트.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>관리자 - 블랙리스트 목록</p>
                   <hr />
@@ -269,11 +287,13 @@ const ProjectComme = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/comme/사업자회원가입.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/comme/사업자회원가입.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>사업자회원 회원가입</p>
                   <hr />

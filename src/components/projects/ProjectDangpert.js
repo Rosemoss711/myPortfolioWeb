@@ -135,11 +135,13 @@ const ProjectDangpert = () => {
           >
             <div className="pjBox" ref={slideRef}>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/dangpert/메인.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/dangpert/메인.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>메인페이지</p>
                   <hr />
@@ -152,11 +154,13 @@ const ProjectDangpert = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/dangpert/운동시설리스트.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/dangpert/운동시설리스트.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>운동시설 리스트 페이지</p>
                   <hr />
@@ -170,11 +174,13 @@ const ProjectDangpert = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/dangpert/운동시설-상세.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/dangpert/운동시설-상세.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>운동시설 상세 페이지</p>
                   <hr />
@@ -188,11 +194,13 @@ const ProjectDangpert = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/dangpert/운동시설 수정페이지.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/dangpert/운동시설 수정페이지.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>운동시설 수정 페이지</p>
                   <hr />
@@ -203,11 +211,13 @@ const ProjectDangpert = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/dangpert/식품리스트.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/dangpert/식품리스트.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>식품프로모션 리스트 페이지</p>
                   <hr />
@@ -224,11 +234,13 @@ const ProjectDangpert = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/dangpert/식품리스트-매니저.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/dangpert/식품리스트-매니저.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>식품프로모션 관리자 페이지</p>
                   <hr />
@@ -239,11 +251,13 @@ const ProjectDangpert = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/dangpert/식품상세수정-매니저.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/dangpert/식품상세수정-매니저.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>식품프로모션 수정 페이지</p>
                   <hr />
@@ -255,11 +269,13 @@ const ProjectDangpert = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/dangpert/QNA.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/dangpert/QNA.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>FAQ 리스트 페이지</p>
                   <hr />
@@ -273,11 +289,13 @@ const ProjectDangpert = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/dangpert/QNA등록.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/dangpert/QNA등록.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>FAQ 등록 페이지</p>
                   <hr />
@@ -285,11 +303,13 @@ const ProjectDangpert = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/dangpert/QNA수정.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/dangpert/QNA수정.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>FAQ 수정 페이지</p>
                   <hr />
@@ -297,11 +317,13 @@ const ProjectDangpert = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/dangpert/마이페이지.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/dangpert/마이페이지.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>마이페이지</p>
                   <hr />
@@ -314,11 +336,13 @@ const ProjectDangpert = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/dangpert/일기.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/dangpert/일기.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>마이페이지-일기</p>
                   <hr />
@@ -329,11 +353,13 @@ const ProjectDangpert = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/dangpert/일기쓰기.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/dangpert/일기쓰기.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>마이페이지-일기쓰기</p>
                   <hr />
@@ -344,11 +370,13 @@ const ProjectDangpert = () => {
                 </div>
               </div>
               <div className="pjInBox">
-                <img
-                  className="pjImgs"
-                  src={require("../../assets/projects/dangpert/일기수정.png")}
-                  alt="mainP"
-                />
+                <div className="imgDiv">
+                  <img
+                    className="pjImgs"
+                    src={require("../../assets/projects/dangpert/일기수정.png")}
+                    alt="mainP"
+                  />
+                </div>
                 <div className="pjEx">
                   <p>마이페이지-일기수정</p>
                   <hr />
